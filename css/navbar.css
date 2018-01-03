@@ -28,7 +28,7 @@
     width: 90%;
 }
 
-.nav-menu li a:before {
+.nav-menu a:before {
     content: "";
     left: -1px;
     margin-top: 9px;

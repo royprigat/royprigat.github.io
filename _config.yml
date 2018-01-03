@@ -12,8 +12,6 @@ github_username:  royprigat
 github:
   repo:           https://github.com/royprigat/royprigat.github.io
 
-markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
