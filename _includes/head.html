@@ -6,18 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- SEO -->
-  <meta name="description" content="{{ page.description }}"> 
-  {% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}"> 
-  {% else %}
-  <meta name="keywords" content="portfolio, roy prigat, columbia, university"> 
-  {% endif %}
+  <meta name="description" content="{{ page.description }}">
+  <meta name="author" content="{{ page.author }}"> 
+  <meta name="keywords" content="personal website, roy prigat, columbia, university"> 
+
+
   <title>
     {% if page.title == "Home" %} {{ site.title }} {% else %} {{ page.title }} | {{ site.title }} {% endif %}
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ "public/css/styles.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "public/css/google-font.css" | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ "css/normalize.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "css/navbar.css" | relative_url }}">
+
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 </head>

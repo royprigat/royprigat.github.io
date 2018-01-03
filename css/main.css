@@ -1,0 +1,53 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #000000;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+img {
+    max-width: 100%;
+    margin: 0 0 1rem;
+    border-radius: 5px
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited,
+a:focus,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+    
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 30px; 
+    font-weight: 700;
+}
+
+li {
+    margin: 15px 10px;
+}

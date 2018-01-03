@@ -1,0 +1,45 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15em;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.nav-content {
+    margin-top: 60px;
+}
+
+.nav-head {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.nav-menu {
+    text-align: left;
+    margin-top: 40%;
+    padding: 10px;
+}
+
+.nav-menu-table {
+    width: 90%;
+}
+
+.nav-item {
+    
+}
+
+.decor {
+    color: #e74c3c;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    color: #868686;
+    font-size: 11px;
+}

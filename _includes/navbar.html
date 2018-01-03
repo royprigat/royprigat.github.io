@@ -1,0 +1,28 @@
+<div class="navbar">
+  <div class="nav-content">
+    <div>
+      <h1 class="nav-head">
+        <a href="{{ site.url }}">{{ site.title }}<span class="decor"> .</span></a>
+      </h1>
+    </div>
+
+    <nav class="nav-menu">
+      <ul class="nav-menu-table">
+        {% assign pages_list = site.pages %} 
+        {% for node in pages_list %} 
+        {% if node.title != null%} 
+        {% if node.layout == "page"%}
+        <li class="nav-item">
+          <a href="{{ node.url }}">
+              <span class="decor" style="margin-right:10px;">-</span><span>{{ node.title }}</span>
+          </a>
+          <hr>
+        </li>
+        {% endif %} {% endif %} {% endfor %}
+      </ul>
+    </nav>
+
+  </div>
+
+  <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+</div>
