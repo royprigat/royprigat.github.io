@@ -10,7 +10,7 @@
 }
 
 .nav-content {
-    margin-top: 60px;
+    margin-top: 65px;
 }
 
 .nav-head {
@@ -20,7 +20,7 @@
 
 .nav-menu {
     text-align: left;
-    margin-top: 40%;
+    margin-top: 25%;
     padding: 10px;
 }
 
@@ -28,17 +28,60 @@
     width: 90%;
 }
 
-.nav-item {
-    
+.nav-menu li a:before {
+    content: "";
+    left: -1px;
+    margin-top: 9px;
+    position: absolute;
+    border-bottom: 2px solid #e74c3c;
+    width: 6px;
+    transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+.nav-menu a:hover:before,
+.nav-menu li.active > a:before {
+    width: 130px;
+    border-bottom: 1px solid #ef106e;
+}
+
+.nav-menu li > a {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    padding: 0 0 0 15px !important;
+    font-weight: 600;
+    border-bottom: none !important
 }
 
 .decor {
     color: #e74c3c;
+    margin-left: -5px;
+}
+
+.social {
+    position: absolute;
+    bottom: 55px;
+    left: 33%;
+    color: #868686;
+    font-size: 18px;
+}
+
+.social > a {
+    margin-right: 10px;
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+}
+
+.social > a:hover {
+    opacity: 1;
 }
 
 .copyright {
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     right: 23%;
     color: #868686;
     font-size: 11px;

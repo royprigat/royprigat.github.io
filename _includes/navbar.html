@@ -2,26 +2,55 @@
   <div class="nav-content">
     <div>
       <h1 class="nav-head">
-        <a href="{{ site.url }}">{{ site.title }}<span class="decor"> .</span></a>
+        <a href="{{ site.url }}">{{ site.title }}
+          <span class="decor">.</span>
+        </a>
       </h1>
     </div>
 
     <nav class="nav-menu">
       <ul class="nav-menu-table">
-        {% assign pages_list = site.pages %} 
-        {% for node in pages_list %} 
-        {% if node.title != null%} 
-        {% if node.layout == "page"%}
-        <li class="nav-item">
-          <a href="{{ node.url }}">
-              <span class="decor" style="margin-right:10px;">-</span><span>{{ node.title }}</span>
+
+        <li class="nav-item {% if page.url == '/about.html' %}active{% endif %}">
+          <a href="about.html">
+            About
           </a>
           <hr>
         </li>
-        {% endif %} {% endif %} {% endfor %}
+
+        <li class="nav-item {% if page.url == '/projects.html' %}active{% endif %}">
+          <a href="projects.html">
+            Projects
+          </a>
+          <hr>
+        </li>
+
+        <li class="nav-item {% if page.url == '/design.html' %}active{% endif %}">
+          <a href="design.html">
+            Design
+          </a>
+          <hr>
+        </li>
+
+        <li class="nav-item {% if page.url == '/contact.html' %}active{% endif %}">
+          <a href="contact.html">
+            Contact
+          </a>
+          <hr>
+        </li>
+
       </ul>
     </nav>
 
+  </div>
+
+  <div class="social">
+    <a href="https://github.com/{{ site.github_username }}">
+      <i class="fab fa-github fa-lg"></i>
+    </a>
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+      <i class="fab fa-linkedin fa-lg"></i>
+    </a>
   </div>
 
   <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
