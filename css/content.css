@@ -1,25 +1,33 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr;
     width: 100%;
     padding-left: 15em;
 }
 
-.about {
+#about {
     background-color: blueviolet;
 }
 
-.projects {
+#projects {
     background-color: rgb(226, 43, 83);
     height: 300px;
 }
 
-.design {
+#design {
     background-color: blueviolet;
     height: 500px;
 }
 
-.contact {
+#contact {
     background-color: rgb(226, 43, 83);
     height: 350px;
+}
+
+/* Setting for smaller screens */
+@media screen and (max-width:700px) {
+    .container {
+        padding: 0;
+        margin-top: 20px;
+    }
 }
