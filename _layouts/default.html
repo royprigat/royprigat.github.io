@@ -2,9 +2,9 @@
 <html lang="en">
 {% include head.html %}
 
-<body onresize="checkNav()">
+<body onload="setAbout()" onresize="checkNav()">
   {% include navbar.html %}
-  <div>
+  <div class="container">
     {{ content }}
   </div>
   {% include scripts.html %}

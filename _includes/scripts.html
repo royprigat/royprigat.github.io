@@ -9,12 +9,20 @@
         }
     }
 
+    function setAbout() {
+        var about = document.getElementById("about");
+        about.style.height = window.innerHeight + "px";
+    }
+
     function checkNav() {
         var nav = document.getElementById("nav");
+        var about = document.getElementById("about");
         var width = window.innerWidth;
+        var height = window.innerHeight;
+        console.log(height);
         if (width >= 700) {
             nav.className = "nav-menu";
         }
+        about.style.height = window.innerHeight + "px";
     }
-
 </script>
