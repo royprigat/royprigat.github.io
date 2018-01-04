@@ -1,2 +1,20 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+<script>
+    function toggleMenu() {
+        var nav = document.getElementById("nav");
+        if (!nav.classList.contains("expanded")) {
+            nav.className = "nav-menu expanded";
+        } else {
+            nav.className = "nav-menu";
+        }
+    }
 
+    function checkNav() {
+        var nav = document.getElementById("nav");
+        var width = window.innerWidth;
+        if (width >= 700) {
+            nav.className = "nav-menu";
+        }
+    }
+
+</script>

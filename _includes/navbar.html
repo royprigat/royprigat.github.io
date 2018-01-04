@@ -8,7 +8,7 @@
       </h1>
     </div>
 
-    <nav class="nav-menu">
+    <nav id="nav" class="nav-menu">
       <ul class="nav-menu-table">
 
         <li class="nav-item {% if page.url == '/about.html' %}active{% endif %}">
@@ -54,5 +54,5 @@
   </div>
 
   <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-  <i class="fas fa-bars menu-icon"></i>
+  <i class="fas fa-bars menu-icon" onclick="toggleMenu()"></i>
 </div>
