@@ -15,6 +15,9 @@
     {% if page.title == "Home" %} {{ site.title }} {% else %} {{ page.title }} | {{ site.title }} {% endif %}
   </title>
 
+  <!-- ICONS -->
+  <link rel="shortcut icon" href="{{ "favicon.ico" | relative_url }}">
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "css/normalize.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "css/main.css" | relative_url }}">
