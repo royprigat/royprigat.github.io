@@ -7,6 +7,7 @@
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     background-color: rgb(245, 245, 245);
     text-align: center;
+    z-index: 1;
 }
 
 .nav-content {
@@ -56,6 +57,10 @@
     border-bottom: none !important
 }
 
+.menu-icon {
+    display: none;
+}
+
 .decor {
     color: #e74c3c;
     margin-left: -5px;
@@ -85,4 +90,53 @@
     right: 23%;
     color: #868686;
     font-size: 11px;
+}
+
+
+
+/* Setting for smaller screens */
+@media screen and (max-width:700px) {
+    .navbar {
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 3em;
+    }
+
+    .nav-head {
+        position: fixed;
+        top: 0;
+        left: 20px;
+        width: 115px;
+        font-size: 20px;
+    }
+    
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        opacity: 0.6;
+    }
+
+    .menu-icon:hover {
+        opacity: 1;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .decor {
+        margin-left: -2px;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
 }
