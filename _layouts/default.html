@@ -2,7 +2,7 @@
 <html lang="en">
 {% include head.html %}
 
-<body onload="setAbout()" onresize="checkNav()">
+<body onload="setAbout()" onresize="checkNav()" onscroll="checkPosition()">
   {% include navbar.html %}
   <div class="container">
     {{ content }}

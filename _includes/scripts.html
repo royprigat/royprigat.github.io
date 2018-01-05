@@ -25,4 +25,11 @@
         }
         about.style.height = window.innerHeight + "px";
     }
+
+    function scrollToSection(section) {
+        document.querySelector('#'+section).scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+    }
+
 </script>
