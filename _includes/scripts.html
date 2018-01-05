@@ -1,7 +1,13 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 <script>
+    var about = document.getElementById("about");
+    var project = document.getElementById("project");
+    var design = document.getElementById("design");
+    var contact = document.getElementById("contact");
+    var nav = document.getElementById("nav");
+
     function toggleMenu() {
-        var nav = document.getElementById("nav");
+        // var nav = document.getElementById("nav");
         if (!nav.classList.contains("expanded")) {
             nav.className = "nav-menu expanded";
         } else {
@@ -10,16 +16,15 @@
     }
 
     function setAbout() {
-        var about = document.getElementById("about");
+        // var about = document.getElementById("about");
         about.style.height = window.innerHeight + "px";
     }
 
     function checkNav() {
-        var nav = document.getElementById("nav");
-        var about = document.getElementById("about");
+        // var nav = document.getElementById("nav");
+        // var about = document.getElementById("about");
         var width = window.innerWidth;
         var height = window.innerHeight;
-        console.log(height);
         if (width >= 700) {
             nav.className = "nav-menu";
         }
@@ -27,9 +32,13 @@
     }
 
     function scrollToSection(section) {
-        document.querySelector('#'+section).scrollIntoView({ 
-        behavior: 'smooth' 
-      });
+        document.querySelector('#' + section).scrollIntoView({
+            block: "start",
+            behavior: 'smooth'
+        });
     }
 
+    function checkPosition() {
+
+    }
 </script>
