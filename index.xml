@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roy Prigat</title>
+    <link>localhost:1313/</link>
+    <description>Recent content on Roy Prigat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Oct 2017 03:29:08 -0700</lastBuildDate>
+    
+	<atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tracribe | Roy Prigat</title>
+      <link>localhost:1313/tracribe/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>localhost:1313/tracribe/</guid>
+      <description> The Challenge minimum viable product
+Ideation and Feature Prioritization Hi-Fidelity Design Next Steps </description>
+    </item>
+    
+    <item>
+      <title>Centro | Roy Prigat</title>
+      <link>localhost:1313/centro/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>localhost:1313/centro/</guid>
+      <description> The Challenge Feature Prioritization Design Decisions Next Steps </description>
+    </item>
+    
+    <item>
+      <title>TAMAR | Roy Prigat</title>
+      <link>localhost:1313/tamar/</link>
+      <pubDate>Sun, 15 Oct 2017 03:29:08 -0700</pubDate>
+      
+      <guid>localhost:1313/tamar/</guid>
+      <description> The Challenge Contextual Inquiry and Discovery Design Decisions Hi-Fidelity Mockups Front-end Development </description>
+    </item>
+    
+  </channel>
+</rss>
