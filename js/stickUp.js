@@ -87,8 +87,8 @@ jQuery(function ($) {
             }
             if (vartop < varscroll + topMargin) {
                 $('.stuckMenu').addClass('isStuck');
-                $('.stuckMenu').next().closest('div').css({
-                    'margin-top': stickyHeight + stickyMarginB + currentMarginT + 'px'
+                $('body').css({
+                    'margin-top': stickyHeight + stickyMarginB + 'px'
                 }, 10);
                 $('.stuckMenu').css("position", "fixed");
                 $('.isStuck').css({
