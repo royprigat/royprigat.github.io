@@ -138,7 +138,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 70px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
