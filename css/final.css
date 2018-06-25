@@ -534,6 +534,14 @@ section {
   margin-top: 2.4em;
 }
 
+.copyright {
+  color: black;
+  opacity: 0.6;
+  font-size: 12px;
+  padding: 4px;
+  margin-left: 5px;
+}
+
 @media all and (max-width: 513px) {
   .project-details {
     justify-content: flex-start;
@@ -612,7 +620,7 @@ section {
   }
   .main-projects .summary {
     font-size: 18px !important;
-    width: 80% !important; 
+    width: 80% !important;
   }
   .main-projects .project-tagline {
     font-size: 18px !important;
@@ -630,6 +638,7 @@ section {
   #avatar {
     max-width: 70% !important;
   }
+
 }
 
 .active {
