@@ -610,15 +610,14 @@ section {
   }
   .main-projects .summary {
     font-size: 18px !important;
+    width: 50% !important; 
   }
   .main-projects .project-tagline {
     font-size: 18px !important;
+    width: 50% !important;
   }
   .title {
     font-size: 30px;
-  }
-  .hero-left {
-    margin-top: -10px !important;
   }
   .hero-right p {
     font-size: 15px !important;
